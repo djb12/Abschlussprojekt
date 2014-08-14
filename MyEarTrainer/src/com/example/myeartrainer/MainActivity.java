@@ -14,7 +14,7 @@ import android.os.Build;
 public class MainActivity extends Activity {
 
 	// Test
-	//PUSHTESTxyyy
+	//PUSHTESTxyyyasdf
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
