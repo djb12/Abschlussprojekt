@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/keyboard_activity_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Spinner
+        android:id="@+id/selector_music"
+        android:layout_width="160dip"
+        android:layout_height="50dip"
+        />
+
+    <Spinner
+        android:id="@+id/selector_mode"
+        android:layout_width="160dip"
+        android:layout_height="50dip"
+        android:layout_toRightOf="@+id/selector_music" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/selector_music"
+        android:text="@string/button_start"
+        android:textSize="20sp" />
+
+     <Button
+        android:id="@+id/button_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_replay"
+        android:layout_alignParentRight="true"
+        android:text="@string/button_skip"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:id="@+id/button_replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalScrollView"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_replay"
+        android:textSize="20sp" />
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/Keyboard_C"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/Keyboard_Cis"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="Cis" />
+
+            <Button
+                android:id="@+id/Keyboard_D"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/Keyboard_Dis"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="Dis" />
+
+            <Button
+                android:id="@+id/Keyboard_E"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/Keyboard_F"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/Keyboard_Fis"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="Fis" />
+
+            <Button
+                android:id="@+id/Keyboard_G"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/Keyboard_Gis"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="Gis" />
+
+            <Button
+                android:id="@+id/Keyboard_A"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/Keyboard_As"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="As" />
+
+            <Button
+                android:id="@+id/Keyboard_H"
+                android:layout_width="60dip"
+                android:layout_height="200dip"
+                android:text="H" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>
